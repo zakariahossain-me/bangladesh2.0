@@ -288,6 +288,7 @@ nav ul li {
   background-color: rgba(255, 255, 255, 1);
   display: flex;
   padding: 48px;
+  margin-top: 32px;
   margin-bottom: 24px;
   gap: 32px;
   border-radius: 24px;
@@ -323,4 +324,147 @@ nav ul li {
   color: #ffffff;
   font-weight: 600;
   border: 0px solid black;
+}
+
+.donate-section {
+  margin: 80px 160px;
+  margin-bottom: 80px;
+}
+
+.donate-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #0e0e0e;
+}
+
+.donate-description {
+  font-family: "Fira Sans", serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 16px;
+  color: #0e0e0e;
+}
+
+.text-conatainer {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-left: 104px;
+  margin-right: 104px;
+  margin-top: 32px;
+  gap: 24px;
+  border-radius: 16px;
+}
+
+.text-style {
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 16px;
+  padding: 16px 40px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.text-style2 {
+  background-color: #c6e4d6;
+  text-align: center;
+  padding: 16px 40px;
+  border-radius: 16px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.decorate {
+  font-family: "Fira Sans", serif;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.ammount-container {
+  margin-left: 104px;
+  margin-right: 104px;
+  margin-top: 32px;
+  padding: 20px 40px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.ammount-text {
+  font-family: "Fira Sans", serif;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.3);
+  text-align: center;
+}
+
+.button-container {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.subscribe-section {
+  background-color: rgba(198, 228, 214, 1);
+  margin: 80px 160px;
+  border-radius: 16px;
+  margin-top: 80px;
+  padding: 20px 40px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.subscribe-decoration {
+  text-align: center;
+  margin: 40px 40px;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.decorations {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.newsletter-section {
+  display: flex;
+  justify-content: center;
+}
+
+.new-btn2 {
+  background-color: #006a50;
+  font-family: "Fira Sans", serif;
+  padding: 0px 26px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  color: #ffffff;
+  font-weight: 600;
+  border: 0px solid black;
+}
+
+.button-customize {
+  width: 300px;
+  height: 40px;
+  padding: 10px;
+  font-size: 16px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.opinion-section {
+  background-color: #ffffff;
+  margin: 80px 160px;
+  border-radius: 16px;
+  margin-top: 80px;
+  padding: 20px 40px;
+  box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.option-container {
+  background-color: rgba(198, 228, 214, 1);
+  display: flex;
 }
